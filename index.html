@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <style>
+        .heading1 {
+            text-align: center;
+            color: blueviolet;
+        }
+
+        .Div1 {
+            color: white;
+            margin: auto;
+            width: 850px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading1">STUDENT REGISTRATION FORM</h1>
+    <div class="Div1">
+        <br>
+        <form>
+            <label for="FIRST NAME">FIRST NAME</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="FIRST NAME" required>
+            <label for="FIRST NAME">(Max 30 characters a-z and A-Z)</label> <br> <br>
+
+            <label for="LAST NAME">LAST NAME</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="LAST NAME" required>
+            <label for="LAST NAME">(Max 30 characters a-z and A-Z)</label> <br> <br>
+
+            <label>DATE OF BIRTH</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <select required>
+                <option value="Day">Day:</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+            </select> &nbsp;
+
+            <select required>
+                <option value="Month">Month:</option>
+                <option value="January">January:</option>
+                <option value="Febrary">Febrary:</option>
+                <option value="March">March:</option>
+                <option value="April">April:</option>
+                <option value="May">May:</option>
+                <option value="June">June:</option>
+                <option value="July">July:</option>
+                <option value="August">August:</option>
+                <option value="September">September:</option>
+                <option value="Octuber">Octuber:</option>
+                <option value="November">November:</option>
+                <option value="December">December:</option>
+            </select> &nbsp;
+
+            <select required>
+                <option value="Year">Year:</option>
+                <option value="Year">2000</option>
+                <option value="Year">2001</option>
+                <option value="Year">2002</option>
+                <option value="Year">2003</option>
+                <option value="Year">2004</option>
+                <option value="Year">2005</option>
+                <option value="Year">2006</option>
+                <option value="Year">2007</option>
+                <option value="Year">2008</option>
+                <option value="Year">2009</option>
+                <option value="Year">2010</option>
+                <option value="Year">2011</option>
+                <option value="Year">2012</option>
+                <option value="Year">2013</option>
+                <option value="Year">2014</option>
+                <option value="Year">2015</option>
+                <option value="Year">2016</option>
+                <option value="Year">2017</option>
+                <option value="Year">2018</option>
+                <option value="Year">2019</option>
+                <option value="Year">2020</option>
+                <option value="Year">2021</option>
+                <option value="Year">2022</option>
+                <option value="Year">2023</option>
+            </select> <br> <br>
+
+            <label for="Email">EMAIL</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp;
+            &nbsp; &nbsp;
+            <input type="email" id="Email" required> <br> <br>
+
+            <label for="MOBILE NUMBER">MOBILE NUMBER</label> &nbsp; &nbsp; &nbsp;
+            <input type="number" id="MOBILE NUMBER" required>
+            <label for="MOBILE NUMBER">(10 Digits Numbers)</label> <br> <br>
+
+            <label for="GENDER">GENDER</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp;
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="GENDER">
+
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="GENDER"> <br> <br>
+
+            <label for="ADDRESS ">ADDRESS <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <textarea id="ADDRESS" cols="50" rows="5"></textarea></label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <br> <br>
+
+            <label for="CITY">CITY</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp;
+            <input type="text" id="CITY">
+            <label for="CITY">(Max 30 characters a-z and A-Z)</label> <br> <br>
+
+            <label for="PIN CODE">PIN CODE</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="PIN CODE">
+            <label for="PIN CODE">(6 Digits Numbers)</label> <br> <br>
+
+            <label for="STATE">STATE</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp;
+            <input type="text" id="STATE">
+            <label for="STATE">(Max 30 characters a-z and A-Z)</label> <br> <br>
+
+            <label for="COUNTRY">COUNTRY</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <select id="COUNTRY">
+                <option>Select Country:</option>
+                <option>Pakistan</option>
+                <option>India</option>
+                <option>UK</option>
+                <option>America</option>
+                <option>England</option>
+                <option>Portugal</option>
+                <option>Spain</option>
+                <option>Australia</option>
+            </select> <br> <br>
+
+            <label>HOBBIES</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            <label for="Drawing">Drawing</label>
+            <input type="checkbox" id="Drawing">
+
+            <label for="Singing">Singing</label>
+            <input type="checkbox" id="Singing">
+
+            <label for="Dancing">Dancing</label>
+            <input type="checkbox" id="Dancing">
+
+            <label for="Sketching">Sketching</label>
+            <input type="checkbox" id="Sketching"> <br>
+
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp;
+            <label for="Others">Others</label>
+            <input type="checkbox" id="Others">
+            <input type="text"> <br> <br>
+
+            <table>
+                <tr>
+                    <td>QUALIFICATION &nbsp; &nbsp;</td>
+                    <td>&nbsp; &nbsp; &nbsp; &nbsp; S:NO. Examination &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                    <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Board &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp;</td>
+                    <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Percentage &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                    <td>&nbsp; &nbsp; &nbsp; &nbsp; Year of passing &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>&nbsp; &nbsp; &nbsp;1 &nbsp; Class X</td>
+                    <td style="background-color: white;"></td>
+                    <td style="background-color: white;"></td>
+                    <td style="background-color: white;"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>&nbsp; &nbsp; &nbsp;2 &nbsp; Class Xll</td>
+                    <td style="background-color: white;"></td>
+                    <td style="background-color: white;"></td>
+                    <td style="background-color: white;"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>&nbsp; &nbsp; &nbsp;3 &nbsp; Graduation</td>
+                    <td style="background-color: white;"></td>
+                    <td style="background-color: white;"></td>
+                    <td style="background-color: white;"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>&nbsp; &nbsp; &nbsp;4 &nbsp; Masters</td>
+                    <td style="background-color: white;"></td>
+                    <td style="background-color: white;"></td>
+                    <td style="background-color: white;"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>(10 Char Max)</td>
+                    <td>(Upto 2 Decimal)</td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <label>COURSES <br> APPLIED FOR</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            <label for="BCA">BCA</label>
+            <input type="radio" id="BCA" name="Choose one">
+
+            <label for="B.com">B.com</label>
+            <input type="radio" id="B.com" name="Choose one">
+
+            <label for="B.Sc">B.Sc</label>
+            <input type="radio" id="B.Sc" name="Choose one">
+
+            <label for="B.A">B.A</label>
+            <input type="radio" id="B.A" name="Choose one"> <br> <br>
+
+            <center>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </center>
+            <br>
+        </form>
+    </div>
+</body>
+
+</html>
